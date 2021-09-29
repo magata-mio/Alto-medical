@@ -1,4 +1,7 @@
 @import url('https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;500&display=swap');
 :root {
     --primary: #fef8f1;
     --secondary: #fff2cd;
@@ -6,10 +9,23 @@
     --text: #0b4a72;
     --text-light: #163b52;
 }
-
+/* Fonts */
 body {
     font-family: 'Lora',
         serif;
+        font-smooth: anitialised;
+}
+.sans {
+    font-family: 'Poppins',
+    sans-serif;
+}
+.font{
+    font-family: 'Vollkorn',
+    serif;
+}
+/* Fonts Color */
+.text{
+    text-decoration: none;
 }
 .text:hover{
     text-decoration: underline;
@@ -17,43 +33,53 @@ body {
 .text-pre {
     color: var(--text);
 }
-
 .text-pre-light {
     color: var(--text-light);
 }
-
-.sans {
-    font-family: sans-serif;
+/* Fonts size */
+.f-s1{
+    font-size: 22px;
 }
-
+.f-s2{
+    font-size: 18px;
+}
+.f-s3{
+    font-size: 14px;
+}
+.f-s4{
+    font-size: 11px;
+}
+.bold{
+    font-weight: 700;
+}
+.thin{
+    font-weight: 300;
+}
+/* Background */
 .bg-1 {
     background: var(--secondary);
     color: var(--text);
 }
-
 .bg-2 {
     background: var(--primary);
 }
-
+/* Button */
 .btn-pre {
     background: #e6f2b4;
     color: var(--text);
 }
-
 .btn-pre:hover {
     background: #b7c777;
-
 }
 .btn-pre-dark {
     background: #0b4a72;
     color: white;
 }
-
 .btn-pre-dark:hover {
     color: white;
 }
 
-
+/* fixed Button */
 main {
     z-index: 11111;
     position: fixed;
@@ -62,11 +88,9 @@ main {
     transform: translatex(-50%);
     display: none;
 }
-
 main.block {
     display: block;
 }
-
 main.none {
     display: none;
 }
