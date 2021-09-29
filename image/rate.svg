@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Star / Filled</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Star-/-Filled" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Star-Copy">
+            <polygon id="Star-Filled" fill="#EFC4DC" points="15 21.5 7.35879172 25.5172209 8.81813264 17.0086105 2.63626529 10.9827791 11.1793959 9.74138954 15 2 18.8206041 9.74138954 27.3637347 10.9827791 21.1818674 17.0086105 22.6412083 25.5172209"></polygon>
+            <path d="M19.9771428,22.6032132 L18.6446271,14.8340505 L24.2892541,9.33189897 L16.4885714,8.19839342 L13,1.12977573 L9.51142862,8.19839342 L1.71074586,9.33189897 L7.35537293,14.8340505 L6.02285723,22.6032132 L13,18.9351121 L19.9771428,22.6032132 Z" id="Star-Outline" stroke="#423D76"></path>
+        </g>
+    </g>
+</svg>
