@@ -1,0 +1,34 @@
+@import url("style.css");
+body {
+    font-family: sans-serif;
+}
+.small{
+    font-size: 14px;
+}
+.small a{
+    text-decoration: none;
+}
+.small a:hover{
+    text-decoration: underline;
+}
+footer{
+    background: #DCE1E6;
+}
+footer ul{
+    list-style: none;
+    margin: 15px 0;
+    padding: 0;
+
+}
+footer ul li{
+    margin-right: 10px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: dimgray;
+    font-weight: 600;
+}
+footer ul li a:hover{
+    color: #0b4a72;
+    text-decoration: underline;
+}

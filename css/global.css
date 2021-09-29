@@ -1,0 +1,72 @@
+@import url('https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css');
+:root {
+    --primary: #fef8f1;
+    --secondary: #fff2cd;
+    --button: #e6f2b4;
+    --text: #0b4a72;
+    --text-light: #163b52;
+}
+
+body {
+    font-family: 'Lora',
+        serif;
+}
+.text:hover{
+    text-decoration: underline;
+}
+.text-pre {
+    color: var(--text);
+}
+
+.text-pre-light {
+    color: var(--text-light);
+}
+
+.sans {
+    font-family: sans-serif;
+}
+
+.bg-1 {
+    background: var(--secondary);
+    color: var(--text);
+}
+
+.bg-2 {
+    background: var(--primary);
+}
+
+.btn-pre {
+    background: #e6f2b4;
+    color: var(--text);
+}
+
+.btn-pre:hover {
+    background: #b7c777;
+
+}
+.btn-pre-dark {
+    background: #0b4a72;
+    color: white;
+}
+
+.btn-pre-dark:hover {
+    color: white;
+}
+
+
+main {
+    z-index: 11111;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translatex(-50%);
+    display: none;
+}
+
+main.block {
+    display: block;
+}
+
+main.none {
+    display: none;
+}

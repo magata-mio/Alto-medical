@@ -1,42 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-
-:root {
-    --primary: #fef8f1;
-    --secondary: #fff2cd;
-    --button: #e6f2b4;
-    --text: #0b4a72;
-    --text-light: #163b52;
-}
-
-body {
-    font-family: 'Lora',
-        serif;
-}
-
-.text-pre {
-    color: var(--text);
-}
-.text-pre-light{
-    color: var(--text-light);
-}
-.sans{
-    font-family: sans-serif;
-}
-.bg-1 {
-    background: var(--secondary);
-    color: var(--text);
-}
-.bg-2{
-    background: var(--primary);
-}
-.btn-pre{
-    background: #e6f2b4;
-    color: var(--text);
-}
-.btn-pre:hover{
-    background: #b7c777;
-
-}
+@import url("global.css");
+@import url("responsive.css");
 .dropdown-menu{
     position: absolute;
     right: 0;
@@ -45,28 +9,8 @@ body {
     display: block;
 
 }
-.push{
-    position: relative;
-    bottom: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-main{
-    z-index: 11111;
-    position: fixed;
-    bottom: 30px;
-    left: 50%;
-    transform: translatex(-50%);
-    display: none;
-}
-main.block{
-    display: block;
-}
-main.none{
-    display: none;
-}
+
+
 /* Navbar Start */
 nav {
     position: relative;
@@ -90,7 +34,7 @@ nav.sticky{
     transition: all 0.5s;
 }
 
-
+/* Side  */
 .side-nav {
     z-index: 1111;
     width: 50vw;
@@ -100,9 +44,6 @@ nav.sticky{
     transform: translateX(-10%);
     display: none;
 }
-
-
-
 .nav-list {
     background: var(--primary);
     height: 100vh;
@@ -139,42 +80,27 @@ nav.sticky{
 .nav-list .item:hover .link::before {
     transform: scaleX(1);
 }
-@media screen and (max-width:769px) {
-    .side-nav {
-        width: 100vw;
-        transform: translateX(0%);
-    }
-    .nav-list .item {
-        padding: 3px 0px 3px 10px;
-    }
-    .btn-sm{
-        font-size: 14px;
-        line-height: 15px;
-    }
-    .btn-sm img{
-        width: 30px;
-    }
+/* Navbar End */
+
+/* Watch Video */
+.push {
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
-@media screen and (max-width:500px){
-    .logo{
-        width: 90px;
-    }
-    .text-sm{
-        font-size: 14px;
-    }
-    .side-nav {
-        width: 100vw;
-        transform: translateX(-5%);
-    }
-    .hamburger-menu {
-        width: 20px;
-        height: 20px;
-    }
-    .btn-sm {
-        font-size: 11px;
-        line-height: 15px;
-    }
+/* Watch Video End */
+
+
+/* Blog  */
+section.blog .imgBx:hover img{
+    filter: opacity(50%);
 }
+
+
+/* Footer Start */
 .foot-nav li{
     position: relative;
 }
