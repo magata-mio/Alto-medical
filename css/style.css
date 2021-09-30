@@ -1,5 +1,4 @@
 @import url("global.css");
-@import url("responsive.css");
 .dropdown-menu{
     position: absolute;
     right: 0;
@@ -34,7 +33,7 @@ nav.sticky{
 /* Side  */
 .side-nav {
     z-index: 1111;
-    width: 50vw;
+    width: 50%;
     position: fixed;
     left: 0;
     top: 0px;
@@ -120,3 +119,52 @@ section.blog .imgBx:hover img{
     transform: scaleX(1);
 }
 
+/*  */
+@media (max-width:769px) {
+    .btn-sm {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .btn-sm img {
+        width: 30px;
+    }
+
+    .side-nav {
+        width: 70%;
+        transform: translateX(0%);
+    }
+
+    .nav-list .item {
+        padding: 3px 0px 3px 10px;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+    .btn-sm {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .text-sm {
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 90px;
+    }
+
+    .side-nav {
+        width: 100vw;
+        transform: translateX(-5%);
+    }
+
+    .hamburger-menu {
+        width: 20px;
+        height: 20px;
+    }
+
+
+}

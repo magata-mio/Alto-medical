@@ -1,0 +1,15 @@
+.service .imgBx{
+    height: 120px;
+    margin: 5px 0;
+}
+.service .imgBx img{
+    height: 100%;
+    object-fit: cover;
+}
+.service .card-body .title{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px;
+}

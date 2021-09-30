@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alto</title>
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/extra.css">
+</head>
+
+<body>
+    <div class="bg-1 text-center py-3">
+        <span class="h5 text-sm">We accept most major insurance!</span>
+    </div>
+    <main>
+        <a href="" class="text-decoration-none btn btn-lg btn-sm btn-pre rounded-pill shadow">
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="image/profile.png" width="50" alt="">
+                <div class="content text-start mx-3">
+                    <p class="text-pre mb-0">Get Started</p>
+                    <small class="text-pre">Signup in second</small>
+                </div>
+                <i class='bx bx-chevron-right fs-2'></i>
+            </div>
+        </a>
+    </main>
+    <!-- Navbar -->
+    <nav class="sticky-top border-bottom py-2 bg-2">
+        <div class="container">
+            <div class="row">
+                <!-- Side navbar -->
+                <div class="col navs pt-3">
+                    <!-- Bar Icon -->
+                    <div class="hamburger-menu" id="show">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                    </div>
+                    <div class="side-nav" id="navbar">
+                        <ul class="nav-list">
+                            <li class="item d-flex justify-content-between align-items-center">
+                                <a href="#"
+                                    class="btn btn-sm-lg btn-pre text-pre my-3 link d-flex align-items-center w-50 justify-content-center">
+                                    Switch to Alto <i class='bx bx-chevron-right'></i>
+                                </a>
+                                <div class="offcanvas-header border-1 me-5" id="hide" onclick="myFunction()">
+                                    <i class='bx bx-message-square-x h1 text-danger'></i>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link display-4">How It Works </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link display-6">Cost & Insurance </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h2">Our Pharmacists </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h3">Delivery Basics </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h4">Service Areas </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h5">General Health </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Diabetes</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Fertility</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Heart Health</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Sexual Health</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Specialty</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Logo -->
+                <div class="col text-center pt-3">
+                    <img src="image/logo.svg" alt="" class="logo" width="120">
+                </div>
+                <!-- Sign In -->
+                <div class="col pt-3">
+                    <ul class="d-flex justify-content-end list-unstyled">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-none d-lg-block text-pre h5 text-sm">
+                                For Providers
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-pre h5 text-sm" href="#" id="navbarDropdown"
+                                role="button">
+                                Sign In
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item h6 text-sm" href="#">For Patients</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item h6 text-sm" href="#">For Providers</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Banner Start -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 pt-5">
+                    <div class="py-5">
+                        <p class="display-4 text-pre">
+                            Get started in seconds
+                        </p>
+                        <p class="sans">
+                            We make it easy to get your prescription, at the best price, delivered to your door — for
+                            free.
+                        </p>
+                        <div class="">
+                            <a href="#" class="btn btn-lg p-3 btn-pre-dark rounded-pill">
+                                Get Started with Alto
+                                <i class='bx bxs-chevron-right'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/cost&insurance/banner.jfif" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- How we save you money -->
+    <section class="service py-5">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-8 mx-auto text-center">
+                    <p class="display-5 text-pre">How we save you money</p>
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-md-4">
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-body text-center">
+                            <div class="imgBx">
+                                <img src="image/cost&insurance/service-1.png" width="120" alt="service-1">
+                            </div>
+                            <div class="title">
+                                <p class="h4 text-pre">Exhaustive price investigations</p>
+                            </div>
+                            <div class="content">
+                                <p class="sans">
+                                    We’ll search for ways to save you money—including coupons, copay cards, and
+                                    assistance
+                                    programs—and apply any savings automatically.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-body text-center">
+                            <div class="imgBx">
+                                <img src="image/cost&insurance/service-2.png" width="120" alt="service-2">
+                            </div>
+                            <div class="title">
+                                <p class="h4 text-pre">Transparent pricing options</p>
+                            </div>
+                            <div class="content">
+                                <p class="sans">
+                                    Sometimes paying out of pocket is cheaper than your copay. We’ll show you the best
+                                    option for all your medications.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-body text-center">
+                            <div class="imgBx">
+                                <img src="image/cost&insurance/service-3.jpg" width="120" alt="service-3">
+                            </div>
+                            <div class="title">
+                                <p class="h4 text-pre">Coordination with your care team</p>
+                            </div>
+                            <div class="content">
+                                <p class="sans">
+                                    We work with your doctor and insurance to find you the best price by looking for
+                                    alternatives when they can save you money.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial -->
+    <section class="py-5">
+        <div class="container">
+            <!-- Right img -->
+            <div class="row py-5">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="py-5 text-center">
+                                <p class="display-5 text-pre mb-3">No hidden costs. Ever.</p>
+                                <p class="sans">
+                                    No membership fees. No delivery add-ons. No subscriptions, tricks or gimmicks.
+                                    It's really always free.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/cost&insurance/content-1.jfif" class="img-fluid" alt="">
+                </div>
+            </div>
+            <!-- Left img -->
+            <div class="row py-3">
+                <div class="col-md-6">
+                    <img src="image/cost&insurance/content-2.jfif" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="row">
+                        <div class="col-md-10 ms-auto">
+                            <div class="py-5 text-center">
+                                <p class="display-5 text-pre mb-3">Fewer insurance headaches</p>
+                                <p class="sans">
+                                    Have a question about insurance or price coverage? Our pharmacists are just a chat,
+                                    text, or phone call away whenever you need them.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Right -->
+            <div class="row py-5">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="row">
+                        <div class="col-md-9 me-auto">
+                            <div class="py-5 text-center">
+                                <p class="display-5 text-pre">Free hand-delivery</p>
+                                <p class="sans thin">
+                                   Pick the day and time and we'll deliver your medication by hand, for free. There are no hidden fees of any kind.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/cost&insurance/content-3.jfif" class="img-fluid" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Rating -->
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-md-6">
+                    <img src="image/cost&insurance/content-4.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 text-center pt-3">
+                    <div class="row">
+                        <div class="col-md-9  ms-auto">
+                            <p class="display-4 text-pre">
+                                "Unlike big box pharmacies, Alto looked for all available coupons to reduce the cost of my med!"
+                            </p>
+                            <div class="rate text-center my-3">
+                                <img src="image/rate.svg" alt="">
+                                <img src="image/rate.svg" alt="">
+                                <img src="image/rate.svg" alt="">
+                                <img src="image/rate.svg" alt="">
+                                <img src="image/Half.svg" alt="">
+                                <p class="my-3">
+                                    <a href="#" class="text-pre btn-pre btn">Based on 913 Reviews</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Medication Price -->
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 text-center mx-auto">
+                    <p class="display-5 text-pre">
+                        Give yourself access to exceptional care.
+                    </p>
+                </div>
+            </div>
+            <div class="row py-5">
+                <div class="col-md-6 text-center mx-auto">
+                    <img src="image/price-1.png" width="120" alt="price-1.png">
+                    <p class="h4 text-pre my-5">
+                        Emily's heart medication was going to cost her <u>$487</u>, even with Medicare.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-2">
+            <div class="row">
+                <div class="col-md-5 text-center mx-auto">
+                    <p class="h4 text-pre my-5">
+                        We found her a coupon program that brought it down to $0, and we delivered it to her that night.
+                    </p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-7"></div>
+                <div class="col-5">
+                    <img src="image/price-baner.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQs -->
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="text-center">
+                <p class="display-3 text-pre">FAQs</p>
+            </div>
+            <div class="row py-5">
+                <div class="col-md-12 mx-auto">
+                    <div class="accordion accordion-flush" id="faqs">
+                        <!-- Question 1 -->
+                        <div class="accordion-item h5 py-3">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed shadow-none bg-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#question-1">
+                                    <p class="h3 m-0 text-pre">
+                                        Will I be covered by my insurance?
+                                    </p>
+                                </button>
+                            </h2>
+                            <div id="question-1" class="accordion-collapse collapse" data-bs-parent="#faqs">
+                                <div class="accordion-body py-3 text-pre-light">
+                                    We accept most major insurance plans, including government-administered plans, and always work to get you the lowest price. Please note that coverage varies by state. For up to date information on coverage in your area call us at 1 (800) 874-5881. 
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Question 2 -->
+                        <div class="accordion-item h5 py-3">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed shadow-none bg-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#question-2">
+                                    <p class="h3 m-0 text-pre">
+                                        Will my medications cost more through Alto?
+                                    </p>
+                                </button>
+                            </h2>
+                            <div id="question-2" class="accordion-collapse collapse" data-bs-parent="#faqs">
+                                <div class="accordion-body py-3 text-pre-light">
+                                    Nope! Your copay stays the same and delivery is always free. Our team works tirelessly behind-the-scenes to find you the best price — we’ve saved our patients more than $40 million on their medications.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Question 3 -->
+                        <div class="accordion-item h5 py-3">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed shadow-none bg-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#question-3">
+                                    <p class="h3 m-0 text-pre">
+                                        Can I use my FSA/HSA with Alto?
+                                    </p>
+                                </button>
+                            </h2>
+                            <div id="question-3" class="accordion-collapse collapse" data-bs-parent="#faqs">
+                                <div class="accordion-body py-3 text-pre-light">
+                                    Yes, you can use your FSA/HSA cards with Alto. You can manage your payment options — including debit and credit cards and automatic funds transfer — in the Alto app or by calling our team at 1 (800) 874-5881.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Question 4 -->
+                        <div class="accordion-item h5 py-3">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed shadow-none bg-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#question-4">
+                                    <p class="h3 m-0 text-pre">
+                                        Is courier delivery free?
+                                    </p>
+                                </button>
+                            </h2>
+                            <div id="question-4" class="accordion-collapse collapse" data-bs-parent="#faqs">
+                                <div class="accordion-body py-3 text-pre-light">
+                                    Yes, delivery is really free! We hand-deliver your medications at the time and location that works best for you — no hidden service or delivery fees.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 mx-auto">
+                    <div class="text-center">
+                        <a href="#"
+                            class="btn text-pre btn-pre btn-lg d-flex align-items-center justify-content-center">Read
+                            All FAQs
+                            <i class='bx bx-chevron-right'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blogs -->
+    <section class="blog py-5 bg-2">
+        <div class="container py-5">
+            <div class="text-center py-5">
+                <p class="display-4 text-pre">From our blog</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body p-0">
+                            <div class="imgBx">
+                                <a href="#">
+                                    <img src="image/blog/blog-1.jfif" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                            <div class="content py-3">
+                                <p class="fs-4 text">
+                                    <a href="#" class="text-decoration-none text-pre">How Alto Saves You Money on Prescriptions</a>
+                                </p>
+                                <span class="sans text-pre-light">Finding the lowest price for your medications shouldn’t be a hassle. Yet with ...</span>
+                                <p class="sans mt-3">
+                                    <small class="text-muted">Nov 9, 2021</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body p-0">
+                            <div class="imgBx">
+                                <a href="#">
+                                    <img src="image/blog/blog-2.jfif" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                            <div class="content py-3">
+                                <p class="fs-4 text">
+                                    <a href="#" class="text-pre text-decoration-none">What’s the Difference between Generic and Brand-name Medications?</a>
+                                </p>
+                                <span class="sans text-pre-light">We tend to feel mistrustful of anything we deem a “knockoff,” assuming we’ll e...</span>
+                                <p class="sans mt-3">
+                                    <small class="text-muted">Oct 8, 2021</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body p-0">
+                            <div class="imgBx">
+                                <a href="#">
+                                    <img src="image/blog/blog-3.png" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                            <div class="content py-3">
+                                <p class="fs-4 text">
+                                    <a href="#" class="text-pre text-decoration-none">
+                                        What is a Prior Authorization?
+                                    </a>
+                                </p>
+                                <span class="sans text-pre-light">
+                                    Imagine going to your doctor’s office and receiving a treatment plan only to l...
+                                </span>
+                                <p class="sans mt-3">
+                                    <small class="text-muted">Sep 4, 2020</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get start -->
+    <section class="py-5 bg-2">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-md-8 mx-auto">
+                    <div class="text-center">
+                        <p class="display-3 text-pre">
+                            Believe in a better pharmacy.
+                        </p>
+                        <div class="mt-5" id="getstarted">
+                            <a href="#" class="btn btn-pre rounded-pill btn-lg p-3">Get Started <i
+                                    class='bx bx-chevron-right'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer start -->
+    <footer class="py-5 bg-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <img src="image/logo.svg" alt="">
+                    <ul class="foot-nav d-md-flex list-unstyled my-3">
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Our Story</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Careers</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">For Providers</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Customer Reviews</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">FAQs</a>
+                        </li>
+                    </ul>
+                    <ul class="foot-nav d-md-flex list-unstyled my-3">
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Blog</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Locations</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Press</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">care@alto.com</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">+977-9804090266</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 py-5">
+                    <ul class="foot-nav d-md-flex justify-content-end list-unstyled my-3">
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/insta.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/facebook.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/twitter.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/linkden.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/8a2442ba-ebec-4d19-91b6-c60d510c75dd_yelp-128-px@3x.png" width="30"
+                                    alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 h6">
+                    <a href="#" class="text-decoration-none text-pre">
+                        ©2021 Alto Pharmacy. All rights reserved.
+                    </a>
+                </div>
+                <div class="col-md-6 h6">
+                    <a href="#" class="text-decoration-none me-3">
+                        Privacy Policy
+                    </a>
+                    <a href="#" class="text-decoration-none me-3">
+                        Notice of Privacy Practices
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        Terms and Conditions
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="image/client-1.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/client-2.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/client-3.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/app-ios.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/app-android.png" class="img-fluid" width="120" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

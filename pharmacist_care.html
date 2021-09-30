@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alto</title>
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/extra.css">
+</head>
+
+<body>
+    <div class="bg-1 text-center py-3">
+        <span class="h5 text-sm">We accept most major insurance!</span>
+    </div>
+    <main>
+        <a href="" class="text-decoration-none btn btn-lg btn-sm btn-pre rounded-pill shadow">
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="image/profile.png" width="50" alt="">
+                <div class="content text-start mx-3">
+                    <p class="text-pre mb-0">Get Started</p>
+                    <small class="text-pre">Signup in second</small>
+                </div>
+                <i class='bx bx-chevron-right fs-2'></i>
+            </div>
+        </a>
+    </main>
+    <!-- Navbar -->
+    <nav class="sticky-top border-bottom py-2 bg-2">
+        <div class="container">
+            <div class="row">
+                <!-- Side navbar -->
+                <div class="col navs pt-3">
+                    <!-- Bar Icon -->
+                    <div class="hamburger-menu" id="show">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                    </div>
+                    <div class="side-nav" id="navbar">
+                        <ul class="nav-list">
+                            <li class="item d-flex justify-content-between align-items-center">
+                                <a href="#"
+                                    class="btn btn-sm-lg btn-pre text-pre my-3 link d-flex align-items-center w-50 justify-content-center">
+                                    Switch to Alto <i class='bx bx-chevron-right'></i>
+                                </a>
+                                <div class="offcanvas-header border-1 me-5" id="hide" onclick="myFunction()">
+                                    <i class='bx bx-message-square-x h1 text-danger'></i>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link display-4">How It Works </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link display-6">Cost & Insurance </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h2">Our Pharmacists </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h3">Delivery Basics </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h4">Service Areas </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h5">General Health </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Diabetes</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Fertility</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Heart Health</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Sexual Health</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Specialty</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Logo -->
+                <div class="col text-center pt-3">
+                    <img src="image/logo.svg" alt="" class="logo" width="120">
+                </div>
+                <!-- Sign In -->
+                <div class="col pt-3">
+                    <ul class="d-flex justify-content-end list-unstyled">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-none d-lg-block text-pre h5 text-sm">
+                                For Providers
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-pre h5 text-sm" href="#" id="navbarDropdown"
+                                role="button">
+                                Sign In
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item h6 text-sm" href="#">For Patients</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item h6 text-sm" href="#">For Providers</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Banner Start -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 pt-5">
+                    <div class="py-5">
+                        <p class="display-4 text-pre">
+                            The extraordinary care you deserve.
+                        </p>
+                        <p class="sans">
+                            Our team of pharmacists are on-call seven days a week to answer any questions. Call, text, or message in the app for personalized support.
+                        </p>
+                        <div class="">
+                            <a href="#" class="btn btn-lg p-3 btn-pre-dark rounded-pill">
+                                Get Started
+                                <i class='bx bxs-chevron-right'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/pharmacist_care/banner.jfif" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial -->
+    <section class="py-5">
+        <div class="container">
+            <!-- Left img -->
+            <div class="row py-3">
+                <div class="col-md-6">
+                    <img src="image/pharmacist_care/content-1.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="row">
+                        <div class="col-md-10 ms-auto">
+                            <div class="py-5 text-center">
+                                <p class="display-5 text-pre">Help is just a click away</p>
+                                <p class="sans">
+                                    Questions about side effects? Worried about missing a dose? Phone, text, or chat our team of pharmacists for support, even in the evenings and on weekends.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Right img -->
+            <div class="row py-5">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="py-5 text-center">
+                                <p class="display-5 text-pre">Experts in every area of care</p>
+                                <p class="sans">
+                                    Our team includes experts in every aspect of care, from everyday issues like the common cold to complex conditions like fertility treatments, sexual health, heart health, diabetes and more.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/pharmacist_care/content-2.jfif" class="img-fluid" alt="">
+                </div>
+            </div>
+            <!-- Left Img -->
+            <div class="row py-3">
+                <div class="col-md-6">
+                    <img src="image/pharmacist_care/content-3.jfif" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="row">
+                        <div class="col-md-10 ms-auto">
+                            <div class="py-5 text-center">
+                                <p class="display-5 text-pre">Private and personalized</p>
+                                <p class="sans">
+                                    Feel safe to discuss issues freely and openly - no long lines or busy retail atmosphere to contend with.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Testimonial Rating -->
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-md-6">
+                    <img src="image/pharmacist_care/rating.jfif" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 text-center pt-3">
+                    <div class="row">
+                        <div class="col-md-9  ms-auto">
+                            <p class="display-5 text-pre">
+                                "I'm really impressed with Alto...I had a question and was able to reach a pharmacist right away on the phone. I am blown away!"
+                            </p>
+                            <div class="rate text-center my-3">
+                                <img src="image/rate.svg" alt="">
+                                <img src="image/rate.svg" alt="">
+                                <img src="image/rate.svg" alt="">
+                                <img src="image/rate.svg" alt="">
+                                <img src="image/Half.svg" alt="">
+                                <p class="my-3">
+                                    <a href="#" class="text-pre btn-pre btn">Based on 913 Reviews</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Chat -->
+    <section>
+        <div class="container">
+            <!-- Right Chat -->
+            <div class="row py-5 my-5">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="py-5 text-center">
+                                <p class="display-5 text-pre">Access to a pharmacist when you need one</p>
+                                <p class="sans">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="message bg-white py-3" style="height: 35vh; overflow-x: hidden;">
+                        <div class="row my-1">
+                            <div class="col-6">
+                                <div class="rounded bg-1 text-pre p-2">
+                                    <p class="m-0">My medicine doesn’t seem to be working.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row my-1">
+                            <div class="col-6 ms-auto">
+                                <div class="rounded bg-2 text-pre p-2">
+                                    <p class="m-0">I have a headache, can I take Advil?</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row my-1">
+                            <div class="col-6">
+                                <div class="rounded bg-1 text-pre p-2">
+                                    <p class="m-0">This acne medicine is upsetting my stomach.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row my-1">
+                            <div class="col-6 ms-auto">
+                                <div class="rounded bg-2 text-pre p-2">
+                                    <p class="m-0">I have a headache, can I take Advil?</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row my-1">
+                            <div class="col-6">
+                                <div class="rounded bg-1 text-pre p-2">
+                                    <p class="m-0">My medicine doesn’t seem to be working.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row my-1">
+                            <div class="col-6 ms-auto">
+                                <div class="rounded bg-2 text-pre p-2">
+                                    <p class="m-0">Is it okay to drink with these pills?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Watch Video Story -->
+    <section class="">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <img src="image/pharmacist_care/video-poster.jfif" class="img-fluid" alt="">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-pre rounded-pill btn-lg px-3 push" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Watch Jehn's Story <i class='bx bx-chevron-right'></i>
+                    </button>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="p-5 m-3">
+                        <p class="h4 text-pre">
+                            "I've always gotten an immediate response. I never have to wait in line at a pharmacy again"
+                        </p>
+                        <small class="text-muted">-Jenn, Alto customer</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Video Links Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog  modal-dialog-centered  modal-lg">
+            <div class="modal-content bg-transparent border-0">
+                <div class="modal-header">
+                    <button type="button" class="btn-close bg-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="100%" height="450" src="https://www.youtube.com/embed/MU0Yp0qmYEs"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen autoplay></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- FAQs -->
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="text-center">
+                <p class="display-3 text-pre">FAQs</p>
+            </div>
+            <div class="row py-5">
+                <div class="col-md-12 mx-auto">
+                    <div class="accordion accordion-flush" id="faqs">
+                        <!-- Question 1 -->
+                        <div class="accordion-item h5 py-3">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed shadow-none bg-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#question-1">
+                                    <p class="h3 m-0 text-pre">
+                                        Does Alto have specialists in my therapeutic area?
+                                    </p>
+                                </button>
+                            </h2>
+                            <div id="question-1" class="accordion-collapse collapse" data-bs-parent="#faqs">
+                                <div class="accordion-body py-3 text-pre-light">
+                                    Our pharmacists are experts in every aspect of care, from everyday issues like the common cold to complex conditions like fertility treatments, HIV/PrEP/HRT, and more.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Question 2 -->
+                        <div class="accordion-item h5 py-3">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed shadow-none bg-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#question-2">
+                                    <p class="h3 m-0 text-pre">
+                                        What are your hours of support?
+                                    </p>
+                                </button>
+                            </h2>
+                            <div id="question-2" class="accordion-collapse collapse" data-bs-parent="#faqs">
+                                <div class="accordion-body py-3 text-pre-light">
+                                    Need assistance? We’re here to help you Monday through Friday 6am - 9pm PT (9 am - 12 midnight ET) and Saturday and Sunday 7 am - 6 pm PT (10 am - 9 pm ET).
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Question 3 -->
+                        <div class="accordion-item h5 py-3">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed shadow-none bg-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#question-3">
+                                    <p class="h3 m-0 text-pre">
+                                        Can I chat directly with the pharmacists?
+                                    </p>
+                                </button>
+                            </h2>
+                            <div id="question-3" class="accordion-collapse collapse" data-bs-parent="#faqs">
+                                <div class="accordion-body py-3 text-pre-light">
+                                    <p>
+                                        Yes, our pharmacists and patient care team are just a text, chat, or an email away: Monday through Friday 6am - 9pm PT (9 am - 12 midnight ET) and Saturday and Sunday 7 am - 6 pm PT (10 am - 9 pm ET).
+                                    </p>
+                                    <p>
+                                        Call or Text: <a href="#">1 (800) 874-5881</a>
+                                    </p>
+                                    <p>
+                                        Email:<a href="#"> care@alto.com</a>
+                                    </p>
+                                    <p>
+                                        Secure message via  <a href="#">the app</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Question 4 -->
+                        <div class="accordion-item h5 py-3">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed shadow-none bg-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#question-4">
+                                    <p class="h3 m-0 text-pre">
+                                        Is there an Alto app?
+                                    </p>
+                                </button>
+                            </h2>
+                            <div id="question-4" class="accordion-collapse collapse" data-bs-parent="#faqs">
+                                <div class="accordion-body py-3 text-pre-light">
+                                    Yes! Download our <a href="#">app</a> (<a href="#">iOS</a> and <a href="#">Android</a> ) for easy access to your account on the go. You can request refills, schedule upcoming deliveries, track your courier, and message a pharmacist, all from your device
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 mx-auto">
+                    <div class="text-center">
+                        <a href="#"
+                            class="btn text-pre btn-pre btn-lg d-flex align-items-center justify-content-center">Read
+                            All FAQs
+                            <i class='bx bx-chevron-right'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Get start -->
+    <section class="py-5 bg-2">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-md-8 mx-auto">
+                    <div class="text-center">
+                        <p class="display-3 text-pre">
+                            Believe in a better pharmacy.
+                        </p>
+                        <div class="mt-5" id="getstarted">
+                            <a href="#" class="btn btn-pre rounded-pill btn-lg p-3">Get Started <i
+                                    class='bx bx-chevron-right'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer start -->
+    <footer class="py-5 bg-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <img src="image/logo.svg" alt="">
+                    <ul class="foot-nav d-md-flex list-unstyled my-3">
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Our Story</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Careers</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">For Providers</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Customer Reviews</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">FAQs</a>
+                        </li>
+                    </ul>
+                    <ul class="foot-nav d-md-flex list-unstyled my-3">
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Blog</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Locations</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Press</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">care@alto.com</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">+977-9804090266</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 py-5">
+                    <ul class="foot-nav d-md-flex justify-content-end list-unstyled my-3">
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/insta.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/facebook.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/twitter.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/linkden.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/8a2442ba-ebec-4d19-91b6-c60d510c75dd_yelp-128-px@3x.png" width="30"
+                                    alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 h6">
+                    <a href="#" class="text-decoration-none text-pre">
+                        ©2021 Alto Pharmacy. All rights reserved.
+                    </a>
+                </div>
+                <div class="col-md-6 h6">
+                    <a href="#" class="text-decoration-none me-3">
+                        Privacy Policy
+                    </a>
+                    <a href="#" class="text-decoration-none me-3">
+                        Notice of Privacy Practices
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        Terms and Conditions
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="image/client-1.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/client-2.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/client-3.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/app-ios.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/app-android.png" class="img-fluid" width="120" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

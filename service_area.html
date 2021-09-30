@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alto</title>
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- <div class="bg-1 text-center py-3">
+        <span class="h5 text-sm">We accept most major insurance!</span>
+    </div> -->
+    <main>
+        <a href="" class="text-decoration-none btn btn-lg btn-sm btn-pre rounded-pill shadow">
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="image/profile.png" width="50" alt="">
+                <div class="content text-start mx-3">
+                    <p class="text-pre mb-0">Switch to Alto</p>
+                    <small class="text-pre">We'll handle the transfer</small>
+                </div>
+                <i class='bx bx-chevron-right fs-2'></i>
+            </div>
+        </a>
+    </main>
+    <!-- Navbar -->
+    <nav class="sticky-top border-bottom py-2 bg-2">
+        <div class="container">
+            <div class="row">
+                <!-- Side navbar -->
+                <div class="col navs pt-3">
+                    <!-- Bar Icon -->
+                    <div class="hamburger-menu" id="show">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                    </div>
+                    <div class="side-nav" id="navbar">
+                        <ul class="nav-list">
+                            <li class="item d-flex justify-content-between align-items-center">
+                                <a href="#"
+                                    class="btn btn-sm-lg btn-pre text-pre my-3 link d-flex align-items-center w-50 justify-content-center">
+                                    Switch to Alto <i class='bx bx-chevron-right'></i>
+                                </a>
+                                <div class="offcanvas-header border-1 me-5" id="hide" onclick="myFunction()">
+                                    <i class='bx bx-message-square-x h1 text-danger'></i>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link display-4">How It Works </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link display-6">Cost & Insurance </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h2">Our Pharmacists </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h3">Delivery Basics </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h4">Service Areas </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h5">General Health </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Diabetes</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Fertility</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Heart Health</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Sexual Health</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Specialty</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Logo -->
+                <div class="col text-center pt-3">
+                    <img src="image/logo.svg" alt="" class="logo" width="120">
+                </div>
+                <!-- Sign In -->
+                <div class="col pt-3">
+                    <ul class="d-flex justify-content-end list-unstyled">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-none d-lg-block text-pre h5 text-sm">
+                                For Providers
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-pre h5 text-sm" href="#" id="navbarDropdown"
+                                role="button">
+                                Sign In
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item h6 text-sm" href="#">For Patients</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item h6 text-sm" href="#">For Providers</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="bg-2 py-5">
+        <div class="container">
+            <div class="text-center">
+                <p class="text-pre f-s1">Alto / Location</p>
+                <h1 class="display-3 text-pre text">Our locations</h1>
+            </div>
+        </div>
+    </section>
+    <!-- Map-1 -->
+    <section class="location py-5 bg-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="content">
+                        <p class="display-4 text-pre thin">San Francisco Bay Area</p>
+                        <div class="d-flex align-items-center mb-3 sans">
+                            <div class="icon px-3 fs-1 text-danger">
+                                <i class='bx bxs-map'></i>
+                            </div>
+                            <div class="address f-s2">
+                                <span>1400 Tennessee St, Unit 2</span><br>
+                                <span>San Francisco, CA 94107</span>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center sans">
+                            <div class="icon px-3 fs-1 text-danger">
+                                <i class='bx bxs-map'></i>
+                            </div>
+                            <div class="address f-s2">
+                                <span>2360 Qume Drive, Suite A</span><br>
+                                <span>San Jose, CA 95131</span>
+                            </div>
+                        </div>
+                        <div class="p-3 font bold">
+                            <small class="text-muted">
+                                Courier delivery available seven days a week. In person pickup available Mon–Fri 9am–7pm
+                                PT
+                                (both locations) and Sat-Sun 10am-6pm PT (San Jose only).
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/location/map-1.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Map-2 -->
+    <section class="location py-5 bg-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="content">
+                        <p class="display-4 text-pre thin">Los Angeles and Orange County</p>
+                        <div class="d-flex align-items-center mb-3 sans">
+                            <div class="icon px-3 fs-1 text-danger">
+                                <i class='bx bxs-map'></i>
+                            </div>
+                            <div class="address f-s2">
+                                <span>6065 Bristol Pkwy, Suite 100</span><br>
+                                <span>Culver City, CA 90230</span>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center sans">
+                            <div class="icon px-3 fs-1 text-danger">
+                                <i class='bx bxs-map'></i>
+                            </div>
+                            <div class="address f-s2">
+                                <span>9213 Research Drive</span><br>
+                                <span>Irvine, CA 92618</span>
+                            </div>
+                        </div>
+                        <div class="p-3 font bold">
+                            <small class="text-muted">
+                                Courier delivery available seven days a week. In person pickup available Mon–Fri 9am–7pm PT and Sat–Sun 10am–6pm PT.
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/location/map-2.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Map-3 -->
+    <section class="location py-5 bg-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="content">
+                        <p class="display-4 text-pre thin">San Diego</p>
+                        <div class="d-flex align-items-center mb-3 sans">
+                            <div class="icon px-3 fs-1 text-danger">
+                                <i class='bx bxs-map'></i>
+                            </div>
+                            <div class="address f-s2">
+                                <span>4240 Kearny Mesa Rd, Suite 107</span><br>
+                                <span>San Diego, CA 92111</span>
+                            </div>
+                        </div>
+                        <div class="p-3 font bold">
+                            <small class="text-muted">
+                                Courier delivery available seven days a week. In person pickup available Mon–Fri 9am–7pm PT and Sat–Sun 10am–6pm PT.
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/location/map-3.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Map-4 -->
+    <section class="location py-5 bg-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="content">
+                        <p class="display-4 text-pre thin">Denver-Boulder Metro Area</p>
+                        <div class="d-flex align-items-center mb-3 sans">
+                            <div class="icon px-3 fs-1 text-danger">
+                                <i class='bx bxs-map'></i>
+                            </div>
+                            <div class="address f-s2">
+                                <span>929 Broadway</span><br>
+                                <span>Denver, CO 80203</span>
+                            </div>
+                        </div>
+                        <div class="p-3 font bold">
+                            <small class="text-muted">
+                               Courier delivery available seven days a week. In person pickup available Mon–Fri 12–7pm MT and Sat-Sun 9:30am–6pm MT.
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/location/map-4.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Map-5 -->
+    <section class="location py-5 bg-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="content">
+                        <p class="display-4 text-pre thin">Las Vegas</p>
+                        <div class="d-flex align-items-center mb-3 sans">
+                            <div class="icon px-3 fs-1 text-danger">
+                                <i class='bx bxs-map'></i>
+                            </div>
+                            <div class="address f-s2">
+                                <span>600 E Pilot Rd, Suite A</span><br>
+                                <span>Las Vegas, NV 89119</span>
+                            </div>
+                        </div>
+                        <div class="p-3 font bold">
+                            <small class="text-muted">
+                               Courier delivery available seven days a week. In person pickup available Mon–Fri 9am–7pm PT and Sat–Sun 9am–5:30pm PT.
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/location/map-5.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Map-6 -->
+    <section class="location py-5 bg-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="content">
+                        <p class="display-4 text-pre thin">Seattle</p>
+                        <div class="d-flex align-items-center mb-3 sans">
+                            <div class="icon px-3 fs-1 text-danger">
+                                <i class='bx bxs-map'></i>
+                            </div>
+                            <div class="address f-s2">
+                                <span>13010 NE 20th Street, Suite 200</span><br>
+                                <span>Bellevue, WA 98005</span>
+                            </div>
+                        </div>
+                        <div class="p-3 font bold">
+                            <small class="text-muted">
+                               Courier delivery available seven days a week. In person pickup available Mon–Fri 12:30–7pm PT and Sat-Sun 10am–5pm PT.
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/location/map-6.jfif" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Map-7 -->
+    <section class="location py-5 bg-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="content">
+                        <p class="display-4 text-pre thin">New York City</p>
+                        <div class="d-flex align-items-center mb-3 sans">
+                            <div class="icon px-3 fs-1 text-danger">
+                                <i class='bx bxs-map'></i>
+                            </div>
+                            <div class="address f-s2">
+                                <span>100 Park Avenue</span><br>
+                                <span>New York City, NY 10017</span>
+                            </div>
+                        </div>
+                        <div class="p-3 font bold">
+                            <small class="text-muted">
+                               Courier delivery available seven days a week. In person pickup available Mon–Fri 9am–7pm ET and Sat–Sun 10am–6pm ET.
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/location/map-7.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Map-8 -->
+    <section class="location py-5 bg-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="content">
+                        <p class="display-4 text-pre thin">Houston</p>
+                        <div class="d-flex align-items-center mb-3 sans">
+                            <div class="icon px-3 fs-1 text-danger">
+                                <i class='bx bxs-map'></i>
+                            </div>
+                            <div class="address f-s2">
+                                <span>4950 Terminal Street, Suite 200</span><br>
+                                <span>Bellaire, TX 77401-601</span>
+                            </div>
+                        </div>
+                        <div class="p-3 font bold">
+                            <small class="text-muted">
+                               Courier delivery available seven days a week. In person pickup available Mon–Fri 9am–7pm CT and Sat–Sun 10am–5:30pm CT.
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/location/map-8.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Map-9 -->
+    <section class="location py-5 bg-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="content">
+                        <p class="display-4 text-pre thin">Dallas-Fort Worth Metro Area</p>
+                        <div class="d-flex align-items-center mb-3 sans">
+                            <div class="icon px-3 fs-1 text-danger">
+                                <i class='bx bxs-map'></i>
+                            </div>
+                            <div class="address f-s2">
+                                <span>475 State Hwy 121, Suite 150</span><br>
+                                <span>Lewisville, TX 75067</span>
+                            </div>
+                        </div>
+                        <div class="p-3 font bold">
+                            <small class="text-muted">
+                               Courier delivery available seven days a week. In person pickup available Mon–Fri 9am–7pm CT and Sat–Sun 10am–5:30pm CT.
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/location/map-9.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Map-10 -->
+    <section class="location py-5 bg-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="content">
+                        <p class="my-3 text-uppercase sans bold text-muted">FERTILITY MEDICATION ONLY</p>
+                        <p class="display-4 text-pre thin">Sacramento</p>
+                        <!-- <div class="d-flex align-items-center mb-3 sans">
+                            <div class="icon px-3 fs-1 text-danger">
+                                <i class='bx bxs-map'></i>
+                            </div>
+                            <div class="address f-s2">
+                                <span>475 State Hwy 121, Suite 150</span><br>
+                                <span>Lewisville, TX 75067</span>
+                            </div>
+                        </div> -->
+                        <div class="font bold">
+                            <small class="">
+                               Courier service only Mon-Fri, no local pickup available at this time.
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/location/map-10.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Map-11 -->
+    <section class="location py-5 bg-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="content">
+                        <p class="my-3 text-uppercase sans bold text-muted">FERTILITY MEDICATION ONLY</p>
+                        <p class="display-4 text-pre thin">Santa Barbara</p>
+                        <!-- <div class="d-flex align-items-center mb-3 sans">
+                            <div class="icon px-3 fs-1 text-danger">
+                                <i class='bx bxs-map'></i>
+                            </div>
+                            <div class="address f-s2">
+                                <span>475 State Hwy 121, Suite 150</span><br>
+                                <span>Lewisville, TX 75067</span>
+                            </div>
+                        </div> -->
+                        <div class="font bold">
+                            <small class="">
+                              Courier service only Mon-Sat, no local pickup available at this time.
+                            </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/location/map-11.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Get start -->
+    <section class="py-5 bg-2">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-md-8 mx-auto">
+                    <div class="text-center">
+                        <p class="display-3 text-pre">
+                            Switch to a better pharmacy.
+                        </p>
+                        <div class="mt-5" id="getstarted">
+                            <a href="#" class="btn btn-pre rounded-pill btn-lg p-3">Switch to Alto <i
+                                    class='bx bx-chevron-right'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer start -->
+    <footer class="py-5 bg-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <img src="image/logo.svg" alt="">
+                    <ul class="foot-nav d-md-flex list-unstyled my-3">
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Our Story</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Careers</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">For Providers</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Customer Reviews</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">FAQs</a>
+                        </li>
+                    </ul>
+                    <ul class="foot-nav d-md-flex list-unstyled my-3">
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Blog</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Locations</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Press</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">care@alto.com</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">+977-9804090266</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 py-5">
+                    <ul class="foot-nav d-md-flex justify-content-end list-unstyled my-3">
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/insta.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/facebook.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/twitter.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/linkden.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/8a2442ba-ebec-4d19-91b6-c60d510c75dd_yelp-128-px@3x.png" width="30"
+                                    alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 h6">
+                    <a href="#" class="text-decoration-none text-pre">
+                        ©2021 Alto Pharmacy. All rights reserved.
+                    </a>
+                </div>
+                <div class="col-md-6 h6">
+                    <a href="#" class="text-decoration-none me-3">
+                        Privacy Policy
+                    </a>
+                    <a href="#" class="text-decoration-none me-3">
+                        Notice of Privacy Practices
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        Terms and Conditions
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="image/client-1.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/client-2.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/client-3.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/app-ios.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/app-android.png" class="img-fluid" width="120" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
