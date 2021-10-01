@@ -62,6 +62,8 @@ body {
 }
 .bg-2 {
     background: var(--primary);
+}.bg-light{
+    background: var(--text-light);
 }
 /* Button */
 .btn-pre {

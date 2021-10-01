@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alto</title>
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- <div class="bg-1 text-center py-3">
+        <span class="h5 text-sm">We accept most major insurance!</span>
+    </div> -->
+    <main>
+        <a href="" class="text-decoration-none btn btn-lg btn-sm btn-pre rounded-pill shadow">
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="image/profile.png" width="50" alt="">
+                <div class="content text-start mx-3">
+                    <p class="text-pre mb-0">Switch to Alto</p>
+                    <small class="text-pre">We'll handle the transfer</small>
+                </div>
+                <i class='bx bx-chevron-right fs-2'></i>
+            </div>
+        </a>
+    </main>
+    <!-- Navbar -->
+    <nav class="sticky-top border-bottom py-2 bg-2">
+        <div class="container">
+            <div class="row">
+                <!-- Side navbar -->
+                <div class="col navs pt-3">
+                    <!-- Bar Icon -->
+                    <div class="hamburger-menu" id="show">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                    </div>
+                    <div class="side-nav" id="navbar">
+                        <ul class="nav-list">
+                            <li class="item d-flex justify-content-between align-items-center">
+                                <a href="#"
+                                    class="btn btn-sm-lg btn-pre text-pre my-3 link d-flex align-items-center w-50 justify-content-center">
+                                    Switch to Alto <i class='bx bx-chevron-right'></i>
+                                </a>
+                                <div class="offcanvas-header border-1 me-5" id="hide" onclick="myFunction()">
+                                    <i class='bx bx-message-square-x h1 text-danger'></i>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link display-4">How It Works </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link display-6">Cost & Insurance </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h2">Our Pharmacists </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h3">Delivery Basics </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h4">Service Areas </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h5">General Health </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Diabetes</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Fertility</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Heart Health</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Sexual Health</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Specialty</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Logo -->
+                <div class="col text-center pt-3">
+                    <img src="image/logo.svg" alt="" class="logo" width="120">
+                </div>
+                <!-- Sign In -->
+                <div class="col pt-3">
+                    <ul class="d-flex justify-content-end list-unstyled">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-none d-lg-block text-pre h5 text-sm">
+                                For Providers
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-pre h5 text-sm" href="#" id="navbarDropdown"
+                                role="button">
+                                Sign In
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item h6 text-sm" href="#">For Patients</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item h6 text-sm" href="#">For Providers</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Banner -->
+    <section class="bg-2 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <div class="text-center">
+                        <p class="text-pre f-s1">Alto / Blog / Company</p>
+                        <h1 class="display-3 text-pre">
+                            Alto Pharmacy Named Great Place to Work®
+                        </h1>
+                        <div class="row sans">
+                            <div class="col-md-8 mx-auto">
+                                <p class="thin">
+                                    Jun 18, 2021
+                                </p>
+                            </div>
+                        </div>
+                        <div class="button text-center my-3">
+                            <a href="#" class="text fs-4 text-pre">
+                                By Alto Pharmacy
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <!-- Image -->
+            <div class="text-center my-3 py-3">
+                <img src="image/blog/content-1.jfif" class="img-fluid" alt="">
+            </div>
+            <!-- Content -->
+            <div class="row py-5">
+                <div class="col-md-10 mx-auto">
+                    <p class="sans">
+                        It’s official: Alto Pharmacy is a great place to work! We’re honored to join the community of Great Place to Work-Certified™ companies based on team member feedback and a rigorous assessment of our company’s culture and benefits. This important recognition is a testament to the dedication of the entire Alto team and the vision of our founders to create a healthcare company truly anchored on the needs and experiences of the customer.
+                    </p>
+                    <h4 class="text-pre py-5">What Makes Alto a Great Place to Work?</h4>
+                    <p class="sans">
+                        80% of our team says that Alto is a great place of work, compared to just 59% of employees at  other companies that participated in this year’s assessment. Here are other key takeaways from our team’s’ responses:
+                    </p>
+                    <ul>
+                        <li>93% of our team members say that you are made to feel welcome when you join Alto.</li>
+                        <li>
+                            88% say that people care about each other here.
+                        </li>
+                        <li>
+                            86% say that they are able to take time off from work when needed.
+                        </li>
+                    </ul>
+                    <p class="sans">
+                        Every company has its own unique culture, but there are two things that all great workplaces share: trust in company leadership and a strong sense of pride in the work. For many Alto team members, being part of a mission-driven company is one of the best parts of working here. 
+                    </p>
+                    <p class="sans">
+                        “Our bold, patient-centered mission creates a powerful level of empathy across the entire team,” shared Rob Anderson, Alto’s Head of Talent . “The people who work here are one of the best parts of coming into work, and one of the top reasons our workplace is so rewarding.”
+                    </p>
+                    <p class="sans">
+                        Our mission — to improve the quality of life for everyone who needs medicine — guides us in every business decision, every day. From fostering an inclusive culture that invests in talent from the same communities as our patients, to building a pharmacy model that meets individuals where they are in their health journey, everything we do at Alto is anchored on delivering meaningful change.
+                     </p>
+                    <p class="sans">
+                        When asked what makes Alto a great place to work, our team members emphasized our guiding company values — including our commitment to putting patients first and leading with empathy — and getting to spend each workday with colleagues who are also inspired and motivated by those values.
+                    </p>
+                </div>
+            </div>
+            <!-- Image -->
+            <div class="text-center my-3 py-3">
+                <img src="image/blog/content-2.jfif" class="img-fluid" alt="">
+            </div>
+            <!-- Content -->
+            <div class="row py-5">
+                <div class="col-md-10 mx-auto">
+                    <p class="sans">
+                        It’s official: Alto Pharmacy is a great place to work! We’re honored to join the community of Great Place to Work-Certified™ companies based on team member feedback and a rigorous assessment of our company’s culture and benefits. This important recognition is a testament to the dedication of the entire Alto team and the vision of our founders to create a healthcare company truly anchored on the needs and experiences of the customer.
+                    </p>
+                    <h4 class="text-pre py-5">What Makes Alto a Great Place to Work?</h4>
+                    <p class="sans">
+                        80% of our team says that Alto is a great place of work, compared to just 59% of employees at  other companies that participated in this year’s assessment. Here are other key takeaways from our team’s’ responses:
+                    </p>
+                    <ul>
+                        <li>93% of our team members say that you are made to feel welcome when you join Alto.</li>
+                        <li>
+                            88% say that people care about each other here.
+                        </li>
+                        <li>
+                            86% say that they are able to take time off from work when needed.
+                        </li>
+                    </ul>
+                    <p class="sans">
+                        Every company has its own unique culture, but there are two things that all great workplaces share: trust in company leadership and a strong sense of pride in the work. For many Alto team members, being part of a mission-driven company is one of the best parts of working here. 
+                    </p>
+                </div>
+            </div>
+            <!-- Image -->
+            <div class="text-center my-3 py-3">
+                <img src="image/blog/content-3.jfif" class="img-fluid" alt="">
+            </div>
+            <!-- Content -->
+            <div class="row py-5">
+                <div class="col-md-10 mx-auto">
+                    <p class="sans">
+                        It’s official: Alto Pharmacy is a great place to work! We’re honored to join the community of Great Place to Work-Certified™ companies based on team member feedback and a rigorous assessment of our company’s culture and benefits. This important recognition is a testament to the dedication of the entire Alto team and the vision of our founders to create a healthcare company truly anchored on the needs and experiences of the customer.
+                    </p>
+                    <h4 class="text-pre py-5">What Makes Alto a Great Place to Work?</h4>
+                    <p class="sans">
+                        80% of our team says that Alto is a great place of work, compared to just 59% of employees at  other companies that participated in this year’s assessment. Here are other key takeaways from our team’s’ responses:
+                    </p>
+                    <ul>
+                        <li>93% of our team members say that you are made to feel welcome when you join Alto.</li>
+                        <li>
+                            88% say that people care about each other here.
+                        </li>
+                        <li>
+                            86% say that they are able to take time off from work when needed.
+                        </li>
+                    </ul>
+                    <p class="sans">
+                        Every company has its own unique culture, but there are two things that all great workplaces share: trust in company leadership and a strong sense of pride in the work. For many Alto team members, being part of a mission-driven company is one of the best parts of working here. 
+                    </p>
+                </div>
+            </div>
+            <!-- /Tags -->
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+                    <span class="f-s1 text-pre">Tags: -</span>
+                    <a href="#" class="btn btn-pre-dark rounded-pill mx-2">Company</a>
+                    <a href="#" class="btn btn-pre-dark rounded-pill mx-2">Culture</a>
+                    <a href="#" class="btn btn-pre-dark rounded-pill mx-2">Startup</a>
+                    <a href="#" class="btn btn-pre-dark rounded-pill mx-2">Press</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blogs -->
+    <section class="blog py-5">
+        <p class="text-center display-4 text-pre">More from Alto</p>
+        <div class="container py-5">
+            <div class="row border-bottom py-5">
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body p-0">
+                            <div class="imgBx">
+                                <a href="#">
+                                    <img src="image/speci/blog-1.jfif" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                            <div class="content py-3">
+                                <p class="fs-4 text">
+                                    <a href="#" class="text-decoration-none text-pre">What the COVID-19 Vaccine Means
+                                        for Those With HIV</a>
+                                </p>
+                                <span class="sans text-pre-light">As of March, 2021, over 115 million people worldwide
+                                    have been diagnosed with ...</span>
+                                <p class="sans mt-3">
+                                    <small class="text-muted">Mar 19, 2021</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body p-0">
+                            <div class="imgBx">
+                                <a href="#">
+                                    <img src="image/speci/blog-2.jfif" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                            <div class="content py-3">
+                                <p class="fs-4 text">
+                                    <a href="#" class="text-pre text-decoration-none">An HIV Prevention Milestone:
+                                        Truvada Goes Generic</a>
+                                </p>
+                                <span class="sans text-pre-light">The world of HIV prevention medications is still
+                                    relatively new. In 2004, Truv...</span>
+                                <p class="sans mt-3">
+                                    <small class="text-muted">Dec 18, 2020</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body p-0">
+                            <div class="imgBx">
+                                <a href="#">
+                                    <img src="image/speci/blog-2.jfif" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                            <div class="content py-3">
+                                <p class="fs-4 text">
+                                    <a href="#" class="text-pre text-decoration-none">An HIV Prevention Milestone:
+                                        Truvada Goes Generic</a>
+                                </p>
+                                <span class="sans text-pre-light">The world of HIV prevention medications is still
+                                    relatively new. In 2004, Truv...</span>
+                                <p class="sans mt-3">
+                                    <small class="text-muted">Dec 18, 2020</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Get start -->
+    <section class="py-5 bg-2">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-md-8 mx-auto">
+                    <div class="text-center">
+                        <p class="display-3 text-pre">
+                            Switch to a better pharmacy.
+                        </p>
+                        <div class="mt-5" id="getstarted">
+                            <a href="#" class="btn btn-pre rounded-pill btn-lg p-3">Meet Alto <i
+                                    class='bx bx-chevron-right'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer start -->
+    <footer class="py-5 bg-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <img src="image/logo.svg" alt="">
+                    <ul class="foot-nav d-md-flex list-unstyled my-3">
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Our Story</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Careers</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">For Providers</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Customer Reviews</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">FAQs</a>
+                        </li>
+                    </ul>
+                    <ul class="foot-nav d-md-flex list-unstyled my-3">
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Blog</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Locations</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Press</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">care@alto.com</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">+977-9804090266</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 py-5">
+                    <ul class="foot-nav d-md-flex justify-content-end list-unstyled my-3">
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/insta.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/facebook.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/twitter.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/linkden.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/8a2442ba-ebec-4d19-91b6-c60d510c75dd_yelp-128-px@3x.png" width="30"
+                                    alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 h6">
+                    <a href="#" class="text-decoration-none text-pre">
+                        ©2021 Alto Pharmacy. All rights reserved.
+                    </a>
+                </div>
+                <div class="col-md-6 h6">
+                    <a href="#" class="text-decoration-none me-3">
+                        Privacy Policy
+                    </a>
+                    <a href="#" class="text-decoration-none me-3">
+                        Notice of Privacy Practices
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        Terms and Conditions
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="image/client-1.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/client-2.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/client-3.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/app-ios.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/app-android.png" class="img-fluid" width="120" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

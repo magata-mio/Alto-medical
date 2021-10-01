@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alto</title>
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- <div class="bg-1 text-center py-3">
+        <span class="h5 text-sm">We accept most major insurance!</span>
+    </div> -->
+    <!-- <main>
+        <a href="" class="text-decoration-none btn btn-lg btn-sm btn-pre rounded-pill shadow">
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="image/profile.png" width="50" alt="">
+                <div class="content text-start mx-3">
+                    <p class="text-pre mb-0">Get Started</p>
+                    <small class="text-pre">Signup in second</small>
+                </div>
+                <i class='bx bx-chevron-right fs-2'></i>
+            </div>
+        </a>
+    </main> -->
+    <!-- Navbar -->
+    <nav class="sticky-top border-bottom py-2 bg-2">
+        <div class="container">
+            <div class="row">
+                <!-- Side navbar -->
+                <div class="col navs pt-3">
+                    <!-- Bar Icon -->
+                    <div class="hamburger-menu" id="show">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                    </div>
+                    <div class="side-nav" id="navbar">
+                        <ul class="nav-list">
+                            <li class="item d-flex justify-content-between align-items-center">
+                                <a href="#"
+                                    class="btn btn-sm-lg btn-pre text-pre my-3 link d-flex align-items-center w-50 justify-content-center">
+                                    Switch to Alto <i class='bx bx-chevron-right'></i>
+                                </a>
+                                <div class="offcanvas-header border-1 me-5" id="hide" onclick="myFunction()">
+                                    <i class='bx bx-message-square-x h1 text-danger'></i>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link display-4">How It Works </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link display-6">Cost & Insurance </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h2">Our Pharmacists </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h3">Delivery Basics </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h4">Service Areas </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h5">General Health </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Diabetes</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Fertility</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Heart Health</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Sexual Health</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Specialty</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Logo -->
+                <div class="col text-center pt-3">
+                    <img src="image/logo.svg" alt="" class="logo" width="120">
+                </div>
+                <!-- Sign In -->
+                <div class="col pt-3">
+                    <ul class="d-flex justify-content-end list-unstyled">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-none d-lg-block text-pre h5 text-sm">
+                                For Providers
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-pre h5 text-sm" href="#" id="navbarDropdown"
+                                role="button">
+                                Sign In
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item h6 text-sm" href="#">For Patients</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item h6 text-sm" href="#">For Providers</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="bg-2">
+        <seciton class="banner py-5">
+            <div class="text-center py-5">
+                <div class="">
+                    <p class="display-1 text-pre">Blog</p>
+                </div>
+                <!-- Button trigger modal -->
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-pre-dark px-5 rounded-pill d-block d-md-none"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Category
+                    </button>
+                </div>
+            </div>
+        </seciton>
+    </div>
+    <!-- Modal Category -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Category</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class=" mt-3">
+                        <li>
+                            <a class="dropdown-item" href="#">All Articles</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Health</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Company</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Products</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Industry</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Search  -->
+    <section class="py-3 bg-2">
+        <div class="container border-bottom">
+            <nav class="navbar navbar-expand navbar-light flex-md-row flex-column">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <form class="d-flex">
+                            <input class="form-control me-2 shadow-none" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <div class="d-none d-md-block">
+                                <button class="btn btn-pre f-s1 d-flex align-items-center" type="submit">
+                                    <i class='bx bx-search'></i>
+                                </button>
+                            </div>
+                        </form>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-none d-md-block">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle btn btn-pre px-5 rounded-pill" href="#"
+                                    id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b>Category</b>
+                                </a>
+                                <ul class="dropdown-menu mt-3" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="#">All Articles</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Health</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Company</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Products</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Industry</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- Blogs -->
+    <section class="blog py-5">
+        <p class="text-center f-s2">37 results for "Fertility"</p>
+        <div class="container py-5">
+            <div class="row border-bottom py-5">
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body p-0">
+                            <div class="imgBx">
+                                <a href="#">
+                                    <img src="image/speci/blog-1.jfif" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                            <div class="content py-3">
+                                <p class="fs-4 text">
+                                    <a href="#" class="text-decoration-none text-pre">What the COVID-19 Vaccine Means
+                                        for Those With HIV</a>
+                                </p>
+                                <span class="sans text-pre-light">As of March, 2021, over 115 million people worldwide
+                                    have been diagnosed with ...</span>
+                                <p class="sans mt-3">
+                                    <small class="text-muted">Mar 19, 2021</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body p-0">
+                            <div class="imgBx">
+                                <a href="#">
+                                    <img src="image/speci/blog-2.jfif" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                            <div class="content py-3">
+                                <p class="fs-4 text">
+                                    <a href="#" class="text-pre text-decoration-none">An HIV Prevention Milestone:
+                                        Truvada Goes Generic</a>
+                                </p>
+                                <span class="sans text-pre-light">The world of HIV prevention medications is still
+                                    relatively new. In 2004, Truv...</span>
+                                <p class="sans mt-3">
+                                    <small class="text-muted">Dec 18, 2020</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body p-0">
+                            <div class="imgBx">
+                                <a href="#">
+                                    <img src="image/speci/blog-2.jfif" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                            <div class="content py-3">
+                                <p class="fs-4 text">
+                                    <a href="#" class="text-pre text-decoration-none">An HIV Prevention Milestone:
+                                        Truvada Goes Generic</a>
+                                </p>
+                                <span class="sans text-pre-light">The world of HIV prevention medications is still
+                                    relatively new. In 2004, Truv...</span>
+                                <p class="sans mt-3">
+                                    <small class="text-muted">Dec 18, 2020</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row border-bottom py-5">
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body p-0">
+                            <div class="imgBx">
+                                <a href="#">
+                                    <img src="image/speci/blog-1.jfif" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                            <div class="content py-3">
+                                <p class="fs-4 text">
+                                    <a href="#" class="text-decoration-none text-pre">What the COVID-19 Vaccine Means
+                                        for Those With HIV</a>
+                                </p>
+                                <span class="sans text-pre-light">As of March, 2021, over 115 million people worldwide
+                                    have been diagnosed with ...</span>
+                                <p class="sans mt-3">
+                                    <small class="text-muted">Mar 19, 2021</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body p-0">
+                            <div class="imgBx">
+                                <a href="#">
+                                    <img src="image/speci/blog-2.jfif" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                            <div class="content py-3">
+                                <p class="fs-4 text">
+                                    <a href="#" class="text-pre text-decoration-none">An HIV Prevention Milestone:
+                                        Truvada Goes Generic</a>
+                                </p>
+                                <span class="sans text-pre-light">The world of HIV prevention medications is still
+                                    relatively new. In 2004, Truv...</span>
+                                <p class="sans mt-3">
+                                    <small class="text-muted">Dec 18, 2020</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-body p-0">
+                            <div class="imgBx">
+                                <a href="#">
+                                    <img src="image/speci/blog-1.jfif" class="img-fluid" alt="">
+                                </a>
+                            </div>
+                            <div class="content py-3">
+                                <p class="fs-4 text">
+                                    <a href="#" class="text-decoration-none text-pre">What the COVID-19 Vaccine Means
+                                        for Those With HIV</a>
+                                </p>
+                                <span class="sans text-pre-light">As of March, 2021, over 115 million people worldwide
+                                    have been diagnosed with ...</span>
+                                <p class="sans mt-3">
+                                    <small class="text-muted">Mar 19, 2021</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pagination -->
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- Get start -->
+    <section class="py-5 bg-2">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-md-8 mx-auto">
+                    <div class="text-center">
+                        <p class="display-3 text-pre">
+                            Switch to a better pharmacy.
+                        </p>
+                        <div class="mt-5" id="getstarted">
+                            <a href="#" class="btn btn-pre rounded-pill btn-lg p-3">Meet Alto <i
+                                    class='bx bx-chevron-right'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer start -->
+    <footer class="py-5 bg-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <img src="image/logo.svg" alt="">
+                    <ul class="foot-nav d-md-flex list-unstyled my-3">
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Our Story</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Careers</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">For Providers</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Customer Reviews</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">FAQs</a>
+                        </li>
+                    </ul>
+                    <ul class="foot-nav d-md-flex list-unstyled my-3">
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Blog</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Locations</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Press</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">care@alto.com</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">+977-9804090266</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 py-5">
+                    <ul class="foot-nav d-md-flex justify-content-end list-unstyled my-3">
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/insta.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/facebook.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/twitter.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/linkden.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/8a2442ba-ebec-4d19-91b6-c60d510c75dd_yelp-128-px@3x.png" width="30"
+                                    alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 h6">
+                    <a href="#" class="text-decoration-none text-pre">
+                        ©2021 Alto Pharmacy. All rights reserved.
+                    </a>
+                </div>
+                <div class="col-md-6 h6">
+                    <a href="#" class="text-decoration-none me-3">
+                        Privacy Policy
+                    </a>
+                    <a href="#" class="text-decoration-none me-3">
+                        Notice of Privacy Practices
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        Terms and Conditions
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="image/client-1.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/client-2.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/client-3.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/app-ios.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/app-android.png" class="img-fluid" width="120" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
