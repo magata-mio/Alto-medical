@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alto</title>
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- <div class="bg-1 text-center py-3">
+        <span class="h5 text-sm">We accept most major insurance!</span>
+    </div> -->
+    <main>
+        <a href="" class="text-decoration-none btn btn-lg btn-sm btn-pre rounded-pill shadow">
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="image/profile.png" width="50" alt="">
+                <div class="content text-start mx-3">
+                    <p class="text-pre mb-0">Switch to Alto</p>
+                    <small class="text-pre">We'll handle the transfer</small>
+                </div>
+                <i class='bx bx-chevron-right fs-2'></i>
+            </div>
+        </a>
+    </main>
+    <!-- Navbar -->
+    <nav class="sticky-top border-bottom py-2 bg-2">
+        <div class="container">
+            <div class="row">
+                <!-- Side navbar -->
+                <div class="col navs pt-3">
+                    <!-- Bar Icon -->
+                    <div class="hamburger-menu" id="show">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                    </div>
+                    <div class="side-nav" id="navbar">
+                        <ul class="nav-list">
+                            <li class="item d-flex justify-content-between align-items-center">
+                                <a href="#"
+                                    class="btn btn-sm-lg btn-pre text-pre my-3 link d-flex align-items-center w-50 justify-content-center">
+                                    Switch to Alto <i class='bx bx-chevron-right'></i>
+                                </a>
+                                <div class="offcanvas-header border-1 me-5" id="hide" onclick="myFunction()">
+                                    <i class='bx bx-message-square-x h1 text-danger'></i>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link display-4">How It Works </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link display-6">Cost & Insurance </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h2">Our Pharmacists </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h3">Delivery Basics </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h4">Service Areas </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h5">General Health </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Diabetes</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Fertility</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Heart Health</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Sexual Health</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Specialty</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Logo -->
+                <div class="col text-center pt-3">
+                    <img src="image/logo.svg" alt="" class="logo" width="120">
+                </div>
+                <!-- Sign In -->
+                <div class="col pt-3">
+                    <ul class="d-flex justify-content-end list-unstyled">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-none d-lg-block text-pre h5 text-sm">
+                                For Providers
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-pre h5 text-sm" href="#" id="navbarDropdown"
+                                role="button">
+                                Sign In
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item h6 text-sm" href="#">For Patients</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item h6 text-sm" href="#">For Providers</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="bg-2 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <div class="text-center">
+                        <p class="text-pre f-s1">Alto / Our Story</p>
+                        <h1 class="display-3 text-pre">A modern pharmacy with history.</h1>
+                    </div>
+                    <div class="text-center my-3 py-3">
+                        <img src="image/our-story/banner.jpg" class="img-fluid" alt="" style="height: 90vh;">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Text  -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto py-5 text-center">
+                    <p class="fs-3 text-pre">
+                        What began as a beloved neighborhood pharmacy in San Francisco's Mission District is now setting
+                        a new standard of care.
+                    </p>
+                    <p class="line-l sans">
+                        Before we could start our own pharmacy, we knew we had to learn from the best. So we spent
+                        months shadowing the team at a family-run pharmacy in San Francisco’s Mission District. There,
+                        we sat in awe of the personal interactions that took place over the counter — from remembering
+                        birthdays and dog names to proactively warning customers about price changes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-6">
+                    <img src="image/diabeties/content-1.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <div class="row">
+                        <div class="col-md-9 ms-auto">
+                            <div class="py-5 text-center">
+                                <p class="display-5 text-pre mb-3">
+                                    A pharmacy that knows you.
+                                </p>
+                                <p class="sans">
+                                    What people really needed was for their pharmacists to know them. Not just their
+                                    home address, but their budgets, preferences, and routines. This connection made it
+                                    easier for patients to navigate the complexities of healthcare, and have it fit into
+                                    real life.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Content -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto py-5 text-center">
+                    <p class="display-4 text-pre">
+                        Powered by people who care.
+                    </p>
+                </div>
+                <div class="col-md-12 mx-auto py-3 text-center">
+                    <div class="text-center">
+                        <img src="image/our-story/content-2.jpg" class="img-fluid w-100" alt="">
+                        <p class="fs-3 text-pre mt-5">
+                            At Alto, our talented team of pharmacists, engineers, and care specialists work tirelessly
+                            to raise the bar for what we can expect from a pharmacy.
+                        </p>
+                        <a href="#" class="fs-4 text-pre btn btn-pre">Join Our Team</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Navigation -->
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-md-6 text-center mx-auto">
+                    <p class="display-4 text-pre">A better pharmacy for everyone.</p>
+                </div>
+                <div class="col-md-10 mx-auto my-5">
+                    <ul class="nav nav-pills mb-3 justify-content-center bg-light rounded-pill py-2" id="pills-tab"
+                        role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link mx-1 rounded-pill fs-5 px-4 active" id="pills-patients-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-patients" type="button" role="tab"
+                                aria-controls="pills-patients" aria-selected="true">
+                                For Patients
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link mx-1 rounded-pill fs-5 px-4" id="pills-providers-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-providers" type="button" role="tab"
+                                aria-controls="pills-profile" aria-selected="false">
+                                For Providers
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link mx-1 rounded-pill fs-5 px-4" id="pills-insurers-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-insurers" type="button" role="tab"
+                                aria-controls="pills-insurers" aria-selected="false">
+                                For Insurers
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link mx-1 rounded-pill fs-5 px-4" id="pills-manufacturers-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-manufacturers" type="button" role="tab"
+                                aria-controls="pills-manufacturers" aria-selected="false">
+                                For Manufacturers
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-patients" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="image/our-story/tab-1.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <div class="py-5 sans flex-fill">
+                                            <p class="">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas dolore
+                                                natus, in veritatis quam praesentium dicta, exercitationem repudiandae
+                                                dolor qui odit itaque consequatur nostrum excepturi.
+                                            </p>
+                                            <a href="#" class="text-pre text">Alto for patients</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-providers" role="tabpanel"
+                            aria-labelledby="pills-providers-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="image/our-story/tab-2.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <div class="py-5 sans flex-fill">
+                                            <p class="">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas dolore
+                                                natus, in veritatis quam praesentium dicta, exercitationem repudiandae
+                                                dolor qui odit itaque consequatur nostrum excepturi.
+                                            </p>
+                                            <a href="#" class="text-pre text">Alto for provider</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-insurers" role="tabpanel"
+                            aria-labelledby="pills-insurers-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="image/our-story/tab-3.jfif" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <div class="py-5 sans flex-fill">
+                                            <p class="">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas dolore
+                                                natus, in veritatis quam praesentium dicta, exercitationem repudiandae
+                                                dolor qui odit itaque consequatur nostrum excepturi.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-manufacturers" role="tabpanel"
+                            aria-labelledby="pills-manufacturers-tab">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="image/our-story/tab-4.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex flex-column justify-content-center">
+                                        <div class="py-5 sans flex-fill">
+                                            <p class="">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas dolore
+                                                natus, in veritatis quam praesentium dicta, exercitationem repudiandae
+                                                dolor qui odit itaque consequatur nostrum excepturi.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- impact -->
+    <section class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="row">
+                <div class="text-center">
+                    <p class="display-4 text-pre">Our Impact</p>
+                </div>
+                <div class="col-md-10 mx-auto py-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card bg-white border-0 py-5">
+                                <div class="card-body px-5">
+                                    <span class="text-capitalise text-muted bold sans">
+                                        PATIENT ADHERENCE
+                                    </span>
+                                    <p class="display-1 text-pre">
+                                        70%
+                                    </p>
+                                    <hr>
+                                    <div class="content my-3 d-flex">
+                                        <a href="#" class="btn btn-pre rounded-pill fs-5 py-2 px-4">40%</a>
+                                        <span class=" text-pre ms-3">
+                                            better adherence than the industry average*
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card bg-white border-0 py-5">
+                                <div class="card-body px-5">
+                                    <span class="text-capitalise text-muted bold sans">
+                                        DRUG SAVINGS
+                                    </span>
+                                    <p class="display-1 text-pre">
+                                        $53m
+                                    </p>
+                                    <hr>
+                                    <div class="content my-3 d-flex">
+                                        <a href="#" class="btn btn-pre rounded-pill fs-5 py-2 px-4">41%+</a>
+                                        <span class=" text-pre ms-2">
+                                            patients benefited from prescription savings
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-5">
+                        <small class="text-muted">*Based on a 21-day first fill window.</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- message -->
+    <section class="py-5 bg-pre">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-md-5 py-5 mx-auto">
+                    <div class="text-center py-5">
+                        <span class="text-muted">OUR PLEDGE</span>
+                        <p class="fs-1 text-pre my-5">
+                            Better at delivering when it’s urgent
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- message -->
+    <section class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-md-5 py-5 mx-auto">
+                    <div class="text-center py-5">
+                        <p class="fs-1 text-pre my-5">
+                            Better at negotiating with insurance when it’s expensive
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- message -->
+    <section class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-md-5 py-5 mx-auto">
+                    <div class="text-center py-5">
+                        <p class="fs-1 text-pre my-5">
+                            Better at brightening your day when it’s tough
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- message -->
+    <section class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-md-5 py-5 mx-auto">
+                    <div class="text-center py-5">
+                        <p class="fs-1 text-pre my-5">
+                            A better pharmacy can make all the difference
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <img src="image/logo.svg" alt="">
+                        <p class="sans">Mattieu, Founder of Alto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Get start -->
+    <section class="py-5 bg-2">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-md-8 mx-auto">
+                    <div class="text-center">
+                        <p class="display-3 text-pre">
+                            Switch to a better pharmacy.
+                        </p>
+                        <div class="mt-5" id="getstarted">
+                            <a href="#" class="btn btn-pre rounded-pill btn-lg p-3">Switch to Alto <i
+                                    class='bx bx-chevron-right'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer start -->
+    <footer class="py-5 bg-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <img src="image/logo.svg" alt="">
+                    <ul class="foot-nav d-md-flex list-unstyled my-3">
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Our Story</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Careers</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">For Providers</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Customer Reviews</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">FAQs</a>
+                        </li>
+                    </ul>
+                    <ul class="foot-nav d-md-flex list-unstyled my-3">
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Blog</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Locations</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Press</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">care@alto.com</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">+977-9804090266</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 py-5">
+                    <ul class="foot-nav d-md-flex justify-content-end list-unstyled my-3">
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/insta.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/facebook.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/twitter.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/linkden.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/8a2442ba-ebec-4d19-91b6-c60d510c75dd_yelp-128-px@3x.png" width="30"
+                                    alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 h6">
+                    <a href="#" class="text-decoration-none text-pre">
+                        ©2021 Alto Pharmacy. All rights reserved.
+                    </a>
+                </div>
+                <div class="col-md-6 h6">
+                    <a href="#" class="text-decoration-none me-3">
+                        Privacy Policy
+                    </a>
+                    <a href="#" class="text-decoration-none me-3">
+                        Notice of Privacy Practices
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        Terms and Conditions
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="image/client-1.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/client-2.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/client-3.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/app-ios.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/app-android.png" class="img-fluid" width="120" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

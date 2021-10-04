@@ -29,6 +29,7 @@ body {
 }
 .text:hover{
     text-decoration: underline;
+    color: black;
 }
 .text-pre {
     color: var(--text);
@@ -95,6 +96,16 @@ main.block {
 }
 main.none {
     display: none;
+}
+/* line height */
+.line-s{
+    line-height: 15px;
+}
+.line-m{
+    line-height: 20px;
+}
+.line-l{
+    line-height: 25px;
 }
 
 
