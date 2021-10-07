@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alto</title>
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .slider .carousel-control-prev {
+            margin-right: 15px;
+        }
+
+        .slider .carousel-control-prev,
+        .slider .carousel-control-next {
+            position: relative;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background-color: khaki;
+            display: inline-flex;
+        }
+
+        .slider .carousel-control-prev i,
+        .slider .carousel-control-next i {
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="bg-1 text-center py-3">
+        <span class="h5 text-sm">We accept most major insurance!</span>
+    </div> -->
+    <main>
+        <a href="" class="text-decoration-none btn btn-lg btn-sm btn-pre rounded-pill shadow">
+            <div class="d-flex align-items-center justify-content-center">
+                <img src="image/profile.png" width="50" alt="">
+                <div class="content text-start mx-3">
+                    <p class="text-pre mb-0">Get Started</p>
+                    <small class="text-pre">Signup in second</small>
+                </div>
+                <i class='bx bx-chevron-right fs-2'></i>
+            </div>
+        </a>
+    </main>
+    <!-- Navbar -->
+    <nav class="sticky-top border-bottom py-2 bg-2">
+        <div class="container">
+            <div class="row">
+                <!-- Side navbar -->
+                <div class="col navs pt-3">
+                    <!-- Bar Icon -->
+                    <div class="hamburger-menu" id="show">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                    </div>
+                    <div class="side-nav" id="navbar">
+                        <ul class="nav-list">
+                            <li class="item d-flex justify-content-between align-items-center">
+                                <a href="#"
+                                    class="btn btn-sm-lg btn-pre text-pre my-3 link d-flex align-items-center w-50 justify-content-center">
+                                    Switch to Alto <i class='bx bx-chevron-right'></i>
+                                </a>
+                                <div class="offcanvas-header border-1 me-5" id="hide" onclick="myFunction()">
+                                    <i class='bx bx-message-square-x h1 text-danger'></i>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link display-4">How It Works </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link display-6">Cost & Insurance </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h2">Our Pharmacists </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h3">Delivery Basics </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h4">Service Areas </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link h5">General Health </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Diabetes</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Fertility</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Heart Health</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Sexual Health</a>
+                            </li>
+                            <li class="item">
+                                <a href="#" class="link">Specialty</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Logo -->
+                <div class="col text-center pt-3">
+                    <img src="image/logo.svg" alt="" class="logo" width="120">
+                </div>
+                <!-- Sign In -->
+                <div class="col pt-3">
+                    <ul class="d-flex justify-content-end list-unstyled">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link d-none d-lg-block text-pre h5 text-sm">
+                                For Providers
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-pre h5 text-sm" href="#" id="navbarDropdown"
+                                role="button">
+                                Sign In
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item h6 text-sm" href="#">For Patients</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item h6 text-sm" href="#">For Providers</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider  -->
+    <section class=" slider py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 testi-img">
+                            <div class="img-box">
+                                <div class="img-box-inner">
+                                    <img src="image/careers/sldier-1.jfif" class="img-fluid" alt="testi img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item testi-item active" data-img="image/careers/sldier-1.jfif">
+                                        <div class="text-end py-5">
+                                            <p class="text-muted">
+                                                Dance in strom
+                                            </p>
+                                            <p class="fs-5 text-pre">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero illo
+                                                magnam aspernatur voluptates obcaecati sunt eligendi praesentium aut
+                                                nihil reprehenderit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item testi-item" data-img="image/careers/slider-2.jfif">
+                                        <div class="text-end py-5">
+                                            <p class="text-muted">
+                                                Dance in strom
+                                            </p>
+                                            <p class="fs-5 text-pre">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero illo
+                                                magnam aspernatur voluptates obcaecati sunt eligendi praesentium aut
+                                                nihil reprehenderit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item testi-item" data-img="image/careers/slider-3.jfif">
+                                        <div class="text-end py-5">
+                                            <p class="text-muted">
+                                                Dance in strom
+                                            </p>
+                                            <p class="fs-5 text-pre">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero illo
+                                                magnam aspernatur voluptates obcaecati sunt eligendi praesentium aut
+                                                nihil reprehenderit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#myCarousel" data-bs-slide="prev">
+                                    <i class='bx bx-chevron-left'></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#myCarousel" data-bs-slide="next">
+                                    <i class='bx bx-chevron-right'></i>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Get start -->
+    <section class="py-5 bg-2">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-md-8 mx-auto">
+                    <div class="text-center">
+                        <p class="display-3 text-pre">
+                            Believe in a better pharmacy.
+                        </p>
+                        <div class="mt-5" id="getstarted">
+                            <a href="#" class="btn btn-pre rounded-pill btn-lg p-3">Get Started <i
+                                    class='bx bx-chevron-right'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer start -->
+    <footer class="py-5 bg-2">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <img src="image/logo.svg" alt="">
+                    <ul class="foot-nav d-md-flex list-unstyled my-3">
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Our Story</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Careers</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">For Providers</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Customer Reviews</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">FAQs</a>
+                        </li>
+                    </ul>
+                    <ul class="foot-nav d-md-flex list-unstyled my-3">
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Blog</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Locations</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">Press</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">care@alto.com</a>
+                        </li>
+                        <li class="item me-5">
+                            <a href="#" class="link text-pre">+977-9804090266</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 py-5">
+                    <ul class="foot-nav d-md-flex justify-content-end list-unstyled my-3">
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/insta.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/facebook.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/twitter.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/linkden.png" width="30" alt="">
+                            </a>
+                        </li>
+                        <li class="item me-3">
+                            <a href="#" class="link text-pre">
+                                <img src="image/8a2442ba-ebec-4d19-91b6-c60d510c75dd_yelp-128-px@3x.png" width="30"
+                                    alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 h6">
+                    <a href="#" class="text-decoration-none text-pre">
+                        ©2021 Alto Pharmacy. All rights reserved.
+                    </a>
+                </div>
+                <div class="col-md-6 h6">
+                    <a href="#" class="text-decoration-none me-3">
+                        Privacy Policy
+                    </a>
+                    <a href="#" class="text-decoration-none me-3">
+                        Notice of Privacy Practices
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        Terms and Conditions
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="image/client-1.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/client-2.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/client-3.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/app-ios.png" class="img-fluid" width="120" alt="">
+                </div>
+                <div class="col">
+                    <img src="image/app-android.png" class="img-fluid" width="120" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        const myCarousel = document.getElementById('myCarousel')
+
+        myCarousel.addEventListener('slide.bs.carousel', function () {
+            const activeItem = this.querySelector(".active");
+            document.querySelector(".testi-img img").src = activeItem.getAttribute("data-img");
+        })
+    </script>
+</body>
+
+</html>

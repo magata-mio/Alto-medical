@@ -13,3 +13,22 @@
     justify-content: center;
     margin: 6px;
 }
+
+.slider .carousel-control-prev {
+    margin-right: 15px;
+}
+
+.slider .carousel-control-prev,
+.slider .carousel-control-next {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(140, 163, 240);
+    display: inline-flex;
+}
+
+.slider .carousel-control-prev i,
+.slider .carousel-control-next i {
+    font-size: 30px;
+}
